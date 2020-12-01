@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+    margin-left: 3vh;
+    padding-left:3vh;
+    padding-top: 5vh;
+}
+
+.column {
+    flex: 40%;
+    margin-top: 2vh;
+    padding-top: 4vh;
+    padding-left:3vh;
+}
