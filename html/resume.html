@@ -13,20 +13,44 @@
     <title>Einzelganger</title>
 </head>
 <style type="text/css">
-.row {
-    display: flex;
-    margin-left: 3vh;
-    padding-left:3vh;
-    padding-top: 5vh;
-}
+    .row {
+        display: flex;
+        margin-left: 3vh;
+        padding-left: 3vh;
+        padding-top: 5vh;
+    }
 
-.column {
-    flex: 40%;
-    margin-top: 2vh;
-    padding-top: 4vh;
-    padding-left:3vh;
-}
+    .column {
+        flex: 40%;
+        margin-top: 2vh;
+        padding-top: 4vh;
+        padding-left: 3vh;
+        padding-right: 2vh;
+    }
 
+    .h4cl {
+        font-size: 2.6vh;
+    }
+
+    .h3cl {
+        font-size: 3.3vh;
+    }
+
+    .h5cl{
+        font-size: 2vh;
+    }
+    
+    .h6cl {
+        font-size: 1.5vh;
+    }
+
+    img {
+        display: block;
+        max-width: 180px;
+        max-height: 180px;
+        width: auto;
+        height: auto;
+    }
 </style>
 
 <body>
@@ -44,6 +68,13 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="">Resume<span class="sr-only">(current)</span></a>
                 </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./../files/CV_VARUL.pdf">CV</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="">Areas of Interest</a>
+                </li>
+                                
             </ul>
         </div>
     </nav>
@@ -52,33 +83,34 @@
     <div class="row">
         <div class="column">
             <div>
-                <h4>Name : Varul Srivastava</h4>
-                <h5>College : <a href="http://www.iiit.ac.in" style="color: maroon">International Institute of
+                <img width="600" height="600" src="./../images/dp.jpg">
+                <p class="h4cl">Name : Varul Srivastava</p>
+                <p class="h5cl">College : <a href="http://www.iiit.ac.in" style="color: maroon">International Institute of
                         Information
-                        Technology. Hyderabad, India.</a></h5>
-                <h5>Degree : B. Tech and M.S. (dual-degree)</h5>
-                <h5>Discipline : Computer Science and Engineering</h5>
+                        Technology. Hyderabad, India.</a></p>
+                <p class="h5cl">Degree : B. Tech and M.S. (dual-degree)</p>
+                <p class="h5cl">Discipline : Computer Science and Engineering</p>
             </div>
             </br>
             </br>
             </br>
             </br>
             <div>
-                <h4>Education :</h4>
-                <h5>1. St. Joseph's College, Allahabad</h5>
-                <h6>10th Standard, Score : <b>94.6%</b> </h6>
-                <h6>12th Standard, Score : <b>98.75%</b> </h6>
-                <h5>2. IIIT, Hyderabad</h5>
-                <h6> CGPA : 9.55</h6>
-                <h6>Currently in Fourth Semester</h6>
+                <p class="h4cl">Education :</p>
+                <p class="h5cl">1. St. Joseph's College, Allahabad</p>
+                <p class="h6cl">10th Standard, Score : <b>94.6%</b> </p>
+                <p class="h6cl">12th Standard, Score : <b>98.75%</b> </p>
+                <p class="h5cl">2. IIIT, Hyderabad</p>
+                <p class="h6cl"> CGPA : 9.55</p>
+                <p class="h6cl">Currently in Fourth Semester</p>
             </div>
             </br>
             </br>
             </br>
             </br>
             <div>
-                <h3>SKILLS</h3>
-                <h5>Concepts</h5>
+                <p class="h3cl">SKILLS</p>
+                <p class="h5cl">Concepts</p>
                 <ul>
                     <li>Data Compression</li>
                     <li>Data Encryption and Basic Cryptography</li>
@@ -89,7 +121,7 @@
                     <li>Database Management and Optimization</li>
                     <li>Probability and Statistics</li>
                 </ul>
-                <h5>Programming and Related</h5>
+                <p class="h5cl">Programming and Related</p>
                 <ul>
                     <li>C</li>
                     <li>C++, Python, Javascript, Bash, x86-Assembly</li>
@@ -103,13 +135,13 @@
 
         <div class="column">
             <div>
-                <h3>PROJECTS</h3>
+                <p class="h3cl">PROJECTS</p>
                 <br>
                 <ul>
                     <li>
                         <div>
-                            <h4>Pied Piper</h4>
-                            <h6>Algorithms, Design, Optimization, Compression, Cryptography, Hashing, Encryption</h6>
+                            <p class="h4cl">Pied Piper</p>
+                            <p class="h6cl">Algorithms, Design, Optimization, Compression, Cryptography, Hashing, Encryption</p>
                             <p>Developed a plethora of Data Compression and Encryption algorithms from scratch.
                                 Developed new, password based encryption technique using cellular Automaton, and coded a
                                 ssh-like client-server communication protocol encrypted with the provided technique of
@@ -125,8 +157,8 @@
                         </div>
                     </li>
                     <li>
-                        <h4>Walk-Less Buy-More (under-design phase)</h4>
-                        <h6>Optimization Algorithms, Probability, Shortest-paths, Innovation</h6>
+                        <p class="h4cl">Walk-Less Buy-More (under-design phase)</p>
+                        <p class="h6cl">Optimization Algorithms, Probability, Shortest-paths, Innovation</p>
                         <p>Working on development of in-store routing algorithm that optimizes the user-path to some
                             extent while also increasing sales using a weighted and probabilistic model of shortest path
                             algorithms. Planning to attach a ML-Model for prediction based shortest path algorithm in
@@ -134,8 +166,8 @@
                     </li>
                     <li>
                         <div>
-                            <h4>PC-Cart</h4>
-                            <h6>Web-Scrapping, Web-Automation, Full-Stack Development</h6>
+                            <p class="h4cl">PC-Cart</p>
+                            <p class="h6cl">Web-Scrapping, Web-Automation, Full-Stack Development</p>
                             <p>A full fleged business plan for a startup, along with the web-application for stage-0 of
                                 the startup. It includes a customized PC-Assembly with web-scraping that gives lowest
                                 price for all hardware from different websites like Walmart, Ebay etc. Written the
@@ -145,21 +177,21 @@
                     </li>
                     <li>
                         <div>
-                            <h4>Crash</h4>
+                            <p class="h4cl">Crash</p>
                             <p>A self-built customized shell that uses syscalls and runs on unix environment. Added
                                 multiple personalized commands.</p>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h4>Azamon</h4>
+                            <p class="h4cl">Azamon</p>
                             <p>Python + MySql based CLI application that uses a self-designed and optimized database for
                                 a hypothetical e-commerce platform.</p>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h4>Pirates of the Pacific</h4>
+                            <p class="h4cl">Pirates of the Pacific</p>
                             <p>A 2-D 2-player game written in python using py-game, where pirates have to cross the sea
                                 while doging sharks and the navy. Added randomization in obstacles and the difficulty
                                 increases with time.</p>
@@ -168,13 +200,13 @@
                 </ul>
             </div>
             <div>
-                <h3>Some Intersting Courses Completed</h3>
+                <p class="h3cl">Some Intersting Courses Completed</p>
                 <br>
-                <h5>CS-Related Courses</h5>
+                <p class="h4cl">CS-Related Courses</p>
                 <ul>
                     <li>
                         <div>
-                            <h6>Data Structures and Algorithms</h6>
+                            <p class="h5cl">Data Structures and Algorithms</p>
                             <!-- Hello</h10> -->
                             <p style="overflow-wrap: break-word; font-size: small; margin-right: 15%;">Studied a
                                 plethora of
@@ -185,7 +217,7 @@
                     </li>
                     <li>
                         <div>
-                            <h6>Algorithm Analysis and Design</h6>
+                            <p class="h5cl">Algorithm Analysis and Design</p>
                             <!-- Hello</h10> -->
                             <p style="overflow-wrap: break-word; font-size: small; margin-right: 15%;">Explored the
                                 world of
@@ -196,7 +228,7 @@
                     </li>
                     <li>
                         <div>
-                            <h6>Databases and Applications</h6>
+                            <p class="h5cl">Databases and Applications</h6>
                             <!-- Hello</h10> -->
                             <p style="overflow-wrap: break-word; font-size: small; margin-right: 15%;">Studied how to
                                 design
@@ -209,7 +241,7 @@
                     </li>
                     <li>
                         <div>
-                            <h6>Operating Systems and Networking</h6>
+                            <p class="h5cl">Operating Systems and Networking</h6>
                             <!-- Hello</h10> -->
                             <p style="overflow-wrap: break-word; font-size: small; margin-right: 15%;">Studied the
                                 workings
@@ -224,7 +256,7 @@
                     </li>
                     <li>
                         <div>
-                            <h6>Introduction to Software Systems</h6>
+                            <p class="h5cl">Introduction to Software Systems</h6>
                             <!-- Hello</h10> -->
                             <p style="overflow-wrap: break-word; font-size: small; margin-right: 15%;">Understood proper
                                 way
@@ -236,7 +268,7 @@
                     </li>
                     <li>
                         <div>
-                            <h6>Neural Networks and Deep Learning (Coursera)</h6>
+                            <p class="h5cl">Neural Networks and Deep Learning (Coursera)</h6>
                             <!-- Hello</h10> -->
                             <p style="overflow-wrap: break-word; font-size: small; margin-right: 15%;">Learnt about
                                 Linear
@@ -247,13 +279,13 @@
                         </div>
                     </li>
                 </ul>
-                <h5>Mathematics Courses</h5>
+                <p class="h5cl">Mathematics Courses</p>
                 <ul>
                     <li>Linear Algebra</li>
                     <li>Probability and Statistics</li>
                     <li>Discrete Mathematics</li>
                 </ul>
-                <h5>Electronics Related Courses</h5>
+                <p class="h5cl">Electronics Related Courses</p>
                 <ul>
                     <li>Internet of Things</li>
                     <li>Digital Systems and Microcontrollers</li>
