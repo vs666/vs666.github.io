@@ -45,7 +45,7 @@
 }
 
 a{
-    font-style: bold;
+    font-style: bolder;
     text-decoration: none;
     color: rgba(0, 0, 50, 1);
     font-size: 3vh;
