@@ -1,0 +1,71 @@
+#d1{
+    background-image: url(./images/mainbg1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+    color: snow;
+}
+#intro1{
+    font-family:'Sofia',sans-serif;
+    font-size: 15vh;
+    margin-left: 30%;
+}
+
+#intro2{
+    font-family:'Sofia',sans-serif;
+    font-size: 8vh;
+    margin-left: 33%;
+}
+
+#d2{
+    background-image: url(./images/mainmid.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: multiply;
+    width: 100%;
+    overflow: auto;
+    height: 55vh;
+    width: 100%;
+    text-align: center;
+    color: silver;
+}
+
+#d3{
+    background-image: url(./images/mainbg2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 200vh;
+    overflow: auto;
+    width: 100%;
+}
+
+a{
+    font-style: bold;
+    text-decoration: none;
+    color: rgba(0, 0, 50, 1);
+    font-size: 3vh;
+    padding-left: 3vh;
+}
+#nav{
+    margin-left: 2%;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: white;
+}
+
+
+#d2 img{
+    padding-left: 4vh;
+    padding-right: 4vh;
+    margin-top: 20vh;
+
+}
