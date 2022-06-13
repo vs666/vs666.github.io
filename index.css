@@ -1,7 +1,7 @@
-#d1{
+#intro {
     background-image: url(./images/mainbg1.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: multiply;
     height: 100vh;
@@ -9,22 +9,23 @@
     overflow: auto;
     color: snow;
 }
-#intro1{
-    font-family:'Sofia',sans-serif;
-    font-size: 15vh;
+
+#intro1 {
+    font-family: 'Sofia', sans-serif;
+    font-size: 10vh;
     margin-left: 30%;
 }
 
-#intro2{
-    font-family:'Sofia',sans-serif;
-    font-size: 8vh;
-    margin-left: 33%;
+#intro2 {
+    font-family: 'Sofia', sans-serif;
+    font-size: 5vh;
+    margin-left: 10%;
 }
 
-#d2{
+#d2 {
     background-image: url(./images/mainmid.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-color: rgba(255, 255, 255, 0.7);
     background-blend-mode: multiply;
     width: 100%;
@@ -35,7 +36,7 @@
     color: silver;
 }
 
-#d3{
+#d3 {
     background-image: url(./images/mainbg2.jpg);
     background-repeat: no-repeat;
     background-size: auto;
@@ -44,28 +45,34 @@
     width: 100%;
 }
 
-a{
+a {
     font-style: bolder;
     text-decoration: none;
     color: rgba(0, 0, 50, 1);
     font-size: 3vh;
     padding-left: 3vh;
 }
-#nav{
+
+#nav {
     margin-left: 2%;
 }
 
-header{
+header {
     position: fixed;
     top: 0%;
     width: 100%;
     background-color: white;
 }
 
-
-#d2 img{
+#d2 img {
     padding-left: 4vh;
     padding-right: 4vh;
     margin-top: 20vh;
-
 }
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
