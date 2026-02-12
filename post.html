@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Post – Varul Srivastava</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="systems.html">Systems</a>
+    <a href="essays.html">Essays</a>
+    <a href="blog.html">Blog</a>
+    <a href="resume.pdf">CV</a>
+  </nav>
+</header>
+
+<main id="content">
+</main>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const file = params.get("file");
+
+if (file) {
+  fetch(file)
+    .then(res => res.text())
+    .then(text => {
+      document.getElementById("content").innerHTML = marked.parse(text);
+    });
+} else {
+  document.getElementById("content").innerHTML = "<p>Post not found.</p>";
+}
+</script>
+
+</body>
+</html>

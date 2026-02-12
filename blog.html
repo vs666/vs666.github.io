@@ -1,17 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Blog – Varul Srivastava</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<h1>Blog</h1>
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="systems.html">Systems</a>
+    <a href="essays.html">Essays</a>
+    <a href="blog.html">Blog</a>
+    <a href="resume.pdf">CV</a>
+  </nav>
+</header>
 
-<div id="posts"></div>
+<main>
+  <h1>Blog</h1>
+  <div id="blog-list"></div>
+</main>
 
-<script src="js/blog.js"></script>
+<script>
+fetch('blogs.json')
+  .then(res => res.json())
+  .then(posts => {
+    const container = document.getElementById('blog-list');
+
+    posts.sort((a,b) => new Date(b.date) - new Date(a.date));
+
+    posts.forEach(post => {
+      const div = document.createElement('div');
+      div.style.marginBottom = "25px";
+
+      div.innerHTML = `
+        <h3>
+          <a href="post.html?file=${encodeURIComponent(post.file)}">
+            ${post.title}
+          </a>
+        </h3>
+        <p style="opacity:0.7; font-size:14px;">
+          ${post.date}
+        </p>
+      `;
+
+      container.appendChild(div);
+    });
+  });
+</script>
 
 </body>
 </html>
