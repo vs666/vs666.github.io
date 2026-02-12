@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Optimal Strategies for Federated Learning Maintaining Client Privacy.",
+    "authors": "Uday Bhaskar, Varul Srivastava, Avyukta Manjunatha Vummintala, Naresh Manwani, Sujit Gujar",
+    "venue": "AI/ML Systems 2025",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arXiv.2501.14453",
+    "abstract": ""
+  },
+  {
+    "id": 2,
+    "title": "Robust In-Context Learning via Multi-Armed Bandit-Based Partition Selection",
+    "authors": "Varul Srivastava, Sankarshan Damle, Manisha Padala",
+    "venue": "Data-FM Workshop @ ICLR 2025",
+    "year": 2025,
+    "url": "https://openreview.net/pdf?id=NzERpVgzsC",
+    "abstract": ""
+  },
+  {
+    "id": 3,
+    "title": "No Transaction Fees? No Problem! Achieving Fairness in Transaction Fee Mechanism Design.",
+    "authors": "Sankarshan Damle, Varul Srivastava, Sujit Gujar",
+    "venue": "AAMAS 2024 (Extended Abstract)",
+    "year": 2024,
+    "url": "https://dl.acm.org/doi/10.5555/3635637.3663116",
+    "abstract": ""
+  },
+  {
+    "id": 4,
+    "title": "Decent-BRM: Decentralization through Block Reward Mechanisms.",
+    "authors": "Varul Srivastava, Sujit Gujar",
+    "venue": "AAMAS 2024 (Extended Abstract)",
+    "year": 2024,
+    "url": "https://dl.acm.org/doi/10.5555/3635637.3663201",
+    "abstract": ""
+  },
+  {
+    "id": 5,
+    "title": "No Transaction Fees? No Problem! Achieving Fairness in Transaction Fee Mechanism Design.",
+    "authors": "Sankarshan Damle, Varul Srivastava, Sujit Gujar",
+    "venue": "ECAI 2024",
+    "year": 2024,
+    "url": "https://doi.org/10.3233/FAIA240924",
+    "abstract": ""
+  },
+  {
+    "id": 6,
+    "title": "Towards Rational Consensus in Honest Majority.",
+    "authors": "Varul Srivastava, Sujit Gujar",
+    "venue": "ICDCS 2024",
+    "year": 2024,
+    "url": "https://doi.org/10.48550/arXiv.2405.07557",
+    "abstract": ""
+  },
+  {
+    "id": 7,
+    "title": "Centralization in Proof-of-Stake Blockchains: A Game-Theoretic Analysis of Bootstrapping Protocols.",
+    "authors": "Varul Srivastava, Sankarshan Damle, Sujit Gujar",
+    "venue": "GAIW@AAMAS 2024",
+    "year": 2024,
+    "url": "https://doi.org/10.48550/arXiv.2404.09627",
+    "abstract": ""
+  },
+  {
+    "id": 8,
+    "title": "QuickSync: A Quickly Synchronizing PoS-Based Blockchain Protocol.",
+    "authors": "Shoeb Siddiqui, Varul Srivastava, Raj Maheshwari, Sujit Gujar",
+    "venue": "ICBC 2023",
+    "year": 2023,
+    "url": "https://doi.org/10.1109/ICBC56567.2023.10174928",
+    "abstract": ""
+  },
+  {
+    "id": 9,
+    "title": "PRAGTHOS: Practical Game Theoretically Secure Proof-of-Work Blockchain.",
+    "authors": "Varul Srivastava, Sujit Gujar",
+    "venue": "ArXiV / US Patent Application",
+    "year": 2023,
+    "url": "https://doi.org/10.48550/arXiv.2302.06136",
+    "abstract": ""
+  }
+]
